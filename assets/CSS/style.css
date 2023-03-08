@@ -8,6 +8,6 @@
     color: white;
 }   
 
-.content-inicio{
+.container-inicio, .container-sobre{
     visibility: hidden;
 }

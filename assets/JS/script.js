@@ -1,5 +1,9 @@
 window.sr = ScrollReveal({reset: true});
 
-sr.reveal('.content-inicio', {
+sr.reveal('.container-inicio', {
     duration : 2000
+})
+
+sr.reveal('.container-sobre', {
+    duration : 4000
 })

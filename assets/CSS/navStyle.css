@@ -32,10 +32,11 @@ a:hover {
 
 .navbar{
     width: 100%;
-    background: #a3ffeda1;
+    background: #a3ffed4d;
     backdrop-filter: blur(20px);
     position: fixed;
     padding: 10px;
+    border-bottom: 1px solid white;
 }
 
 .logo{
