@@ -7,3 +7,7 @@ sr.reveal('.container-inicio', {
 sr.reveal('.container-sobre', {
     duration : 4000
 })
+
+sr.reveal('.container-projects', {
+    duration : 4000
+})

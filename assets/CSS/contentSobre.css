@@ -1,15 +1,15 @@
 #sobre-mim{
-    background: #6bada0;
+    background: #48ab97;
     height: 100vh;
     align-items: center;
     display: flex;
 }
 
 .container-sobre{
+    display: flex;
     margin: 0 auto;
     width: 1000px;
     text-align: center;
-    display: flex;
     align-items: center;
 }
 

@@ -8,6 +8,6 @@
     color: white;
 }   
 
-.container-inicio, .container-sobre{
+.container-inicio, .container-sobre, .container-projects{
     visibility: hidden;
 }
