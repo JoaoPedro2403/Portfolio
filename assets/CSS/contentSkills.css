@@ -1,0 +1,23 @@
+#skills{
+    background: #48ab97;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container-skills{
+    margin: 0 auto;
+}
+
+.tilte-skills{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.img-skills{
+    width: 300px;
+    height: 200px;
+    padding: 0px 50px;
+}
+
