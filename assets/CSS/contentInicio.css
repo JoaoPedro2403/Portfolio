@@ -1,6 +1,6 @@
 #inicio{
     height: 100vh;
-    background: black;
+    background: linear-gradient(63.13deg, #48ab97 51.04%, black 51.05%);
     align-items: center;
     display: flex;
 }
@@ -36,7 +36,7 @@ span{
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-left:70px;
+    padding-left:100px;
 }
 
 .name-inicio::after{
@@ -55,4 +55,16 @@ span{
     50%{
         opacity: 0;
     }
+}
+
+#github-img{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+#linkedin-img{
+    margin-top: 30px;
+    width: 80px;
+    height: 40px;
 }

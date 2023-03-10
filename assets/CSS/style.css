@@ -8,7 +8,7 @@
     color: white;
 }   
 
-.container-inicio, .container-sobre, .container-projects{
+.container-inicio, .container-sobre, .container-projects, .container-skills{
     visibility: hidden;
 }
 

@@ -11,3 +11,7 @@ sr.reveal('.container-sobre', {
 sr.reveal('.container-projects', {
     duration : 4000
 })
+
+sr.reveal('.container-skills', {
+    duration : 4000
+})

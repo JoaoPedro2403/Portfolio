@@ -10,7 +10,7 @@ nav {
     width: 50%;
 }
 
-a {
+.link {
     text-decoration: none;
     display: block;
     color: rgb(255, 255, 255);
@@ -19,7 +19,7 @@ a {
     position: relative;
 }
 
-a:hover {
+.link:hover {
     color:  #A3FFED;
 }
 
@@ -44,7 +44,7 @@ a:hover {
     color: white;
 }
 
- a::after{
+ .link::after{
     content: "";
     width: 0%;
     height: 1px;
@@ -55,6 +55,6 @@ a:hover {
     transition: 0.3s ease-in-out ;
 }
 
-a:hover::after{
+.link:hover::after{
     width: 100%;
 }
