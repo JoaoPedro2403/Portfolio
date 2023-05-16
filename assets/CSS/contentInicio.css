@@ -3,9 +3,17 @@
     background: linear-gradient(63.13deg, #48ab97 51.04%, black 51.05%);
     align-items: center;
     display: flex;
+    border-bottom: 1px solid white;
 }
 
-.content-inicio{
+.container-inicio{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 500px 300px;
+    align-items: center;
+}
+
+.description-inicio{
     font-size: 25px;   
     display: block;
     text-align: justify;
@@ -15,28 +23,10 @@ span{
     font-size: 40px;
 }
 
-.container-inicio{
-    margin: 0 auto;
-}
-
-.ajustes{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.avatar-img{
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-}
-
-.img-inicio{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding-left:100px;
+.avatar-inicio{
+    border-radius: 100%;
+    width: auto;
+    height: auto;
 }
 
 .name-inicio::after{
@@ -55,16 +45,4 @@ span{
     50%{
         opacity: 0;
     }
-}
-
-#github-img{
-    margin-top: 30px;
-    width: 40px;
-    height: 40px;
-}
-
-#linkedin-img{
-    margin-top: 30px;
-    width: 80px;
-    height: 40px;
 }
