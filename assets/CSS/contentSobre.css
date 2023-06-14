@@ -7,27 +7,17 @@
 }
 
 .container-sobre{
-    display: flex;
+    display: grid;
+    grid-template-columns: 500px 500px;
     margin: 0 auto;
-    width: 1000px;
-    text-align: center;
     align-items: center;
 }
 
-.img-sobre{
-    float: left;
-}
-
 .avatarSobre-img{
-    width: 500px;
+    width: 600px;
 }
 
 .content-sobre{
     text-align: justify;
-    display: block;
-}
-
-.tilte-sobre{
-    font-size: 40px;
 }
 
